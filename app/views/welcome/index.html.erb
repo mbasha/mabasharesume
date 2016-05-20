@@ -11,24 +11,30 @@
     <meta name="description" content="Mohammed Abrar Basha Resume Site">
     <meta name="author" content="Mohammed Abrar Basha">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <!--link href="assets/css/bootstrap.css" rel="stylesheet"-->
+    <link href="assets/bootstrap.css" rel="stylesheet">
     <!-- Global CSS -->
-    <!--link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"-->
-    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <!--link rel="stylesheet" href="assets/bootstrap.min.css"-->
+    <link rel="stylesheet" href="http://maxcdb.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
     <!-- Plugins CSS -->
     <!--link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css"-->
-    <link rel="stylesheet" href="assets/font-awesome.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
-    <!-- github calendar css -->
-    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"
-/>
-    <!-- github acitivity css -->
-    <link rel="stylesheet" href="assets/github-activity/src/github-activity.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <!-- Custom styles for this template -->
+    <link href="assets/styles.css" rel="stylesheet">
 
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+    <!-- Scripts -->
+    <script src="assets/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/smoothscroll.js"></script>
+    <script src="assets/Chart.js"></script>
 
 </head>
 
@@ -36,19 +42,17 @@
     <!-- ******HEADER****** -->
     <header class="header">
         <div class="container">
-            <img class="profile-image img-responsive pull-left" src="assets/header.jpg" alt="Abrar Basha" />
+            <img class="profile-image img-responsive pull-left" src="assets/header2.jpg" alt="Abrar Basha" width="200" height="200"/>
             <div class="profile-content pull-left">
                 <h1 class="name">Mohammed Abrar Basha</h1>
                 <h2 class="desc">Software Engineer</h2>
                 <ul class="social list-inline">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github-alt"></i></a></li>
-                    <li class="last-item"><a href="#"><i class="fa fa-hacker-news"></i></a></li>
+                    <li><a href="https://www.facebook.com/abrar.basha"target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/arnobashbear/"target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/mohammed-basha-bb29b675"target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="last-item"><a href="http://github.com/mbasha/"target="_blank"><i class="fa fa-github-alt"></i></a></li>
                 </ul>
             </div><!--//profile-->
-            <a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a>
         </div><!--//container-->
     </header><!--//header-->
 
@@ -59,10 +63,8 @@
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
                         <div class="content">
-                            <p>Write a brief intro about yourself. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
-
-        <p>It's a good idea to include your personal interests and hobbies as well. Commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-
+                            <p>I'm a Software Engineer who recently graduated from Clemson University. I've primarily worked on front end applications in my career as a student of Computer Science, an intern, and on my side projects. I have a bit of back end experience, as I've done projects with a back-end implementation, usually in SQLite. </p>
+                            <p>When I'm not coding, I like to spend my time watching and playing basketball. I've been known to have a pair of headphones attached to my head too. </p>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section><!--//section-->
@@ -72,128 +74,175 @@
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Co-Founder & Lead Developer - <span class="place"><a href="#">Startup Hub</a></span> <span class="year">(2014 - Present)</span></h3>
-                                <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.</p>
+                                <h3 class="title">Automation Engineering Intern: <span class="place"><a href="http://www.nucor.com/">Nucor Steel</a></span> <span class="year">(December 2015 - January 2016)</span></h3>
+                                <p>todo</p>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">Google</a></span> <span class="year">(2013 - 2014)</span></h3>
-                                <p>Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+                                <h3 class="title">Software Engineering Intern: <span class="place"><a href="https://www.benefitfocus.com/">BenefitFocus</a></span> <span class="year">(May 2015 - August 2015)</span></h3>
+                                <p>todo</p>
                             </div><!--//item-->
 
                             <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span class="year">(2012 - 2013)</span></h3>
-                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+                                <h3 class="title">Software Engineering Intern: <span class="place"><a href="https://www.benefitfocus.com/">BenefitFocus</a></span> <span class="year">(June 2014 - August 2014)</span></h3>
+                                <p>todo</p>
                             </div><!--//item-->
 
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </section><!--//section-->
-                <section class="github section">
+
+                <section class="experience section">
                     <div class="section-inner">
-                        <h2 class="heading">My GitHub</h2>
-                        <p>You can embed your GitHub contribution graph calendar using IonicaBizau's <a href="https://github.com/IonicaBizau/github-calendar" target="_blank">GitHub Calendar</a> widget.
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
 
-                        <div id="github-graph" class="github-graph">
+                          <div class="container">
+                            <div class="row">
+                                <div class="col-lg-2 col-lg-offset-0">
+                                </div>
+                                <div class="col-lg-3 centered">
+                                  <canvas id="java" height="130" width="130"></canvas>
+                                  <p>Java</p>
+                                  <br>
+                                  <script>
+                                    var doughnutData = [
+                                        {
+                                          value: 80,
+                                          color:"#1abc9c"
+                                        },
+                                        {
+                                          value : 20,
+                                          color : "#ecf0f1"
+                                        }
+                                      ];
+                                      var myDoughnut = new Chart(document.getElementById("java").getContext("2d")).Doughnut(doughnutData);
+                                  </script>
+                                </div>
+                                <div class="col-lg-3 centered">
+                                  <canvas id="cpp" height="130" width="130"></canvas>
+                                  <p>C++</p>
+                                  <br>
+                                  <script>
+                                    var doughnutData = [
+                                        {
+                                          value: 75,
+                                          color:"#1abc9c"
+                                        },
+                                        {
+                                          value : 25,
+                                          color : "#ecf0f1"
+                                        }
+                                      ];
+                                      var myDoughnut = new Chart(document.getElementById("cpp").getContext("2d")).Doughnut(doughnutData);
+                                  </script>
+                                </div>
+                                <div class="col-lg-3 centered">
+                                  <canvas id="sql" height="130" width="130"></canvas>
+                                  <p>SQL</p>
+                                  <br>
+                                  <script>
+                                    var doughnutData = [
+                                        {
+                                          value: 65,
+                                          color:"#1abc9c"
+                                        },
+                                        {
+                                          value : 35,
+                                          color : "#ecf0f1"
+                                        }
+                                      ];
+                                      var myDoughnut = new Chart(document.getElementById("sql").getContext("2d")).Doughnut(doughnutData);
+                                  </script>
+                                </div>
 
-                        </div><!--//github-graph-->
+                                <div class="col-lg-3 col-lg-offset-2 centered">
+                                  <canvas id="html" height="130" width="130"></canvas>
+                                  <p>HTML/CSS/PHP</p>
+                                  <br>
+                                  <script>
+                                    var doughnutData = [
+                                        {
+                                          value: 60,
+                                          color:"#1abc9c"
+                                        },
+                                        {
+                                          value : 40,
+                                          color : "#ecf0f1"
+                                        }
+                                      ];
+                                      var myDoughnut = new Chart(document.getElementById("html").getContext("2d")).Doughnut(doughnutData);
+                                  </script>
+                                </div>
+                                <div class="col-lg-3 centered">
+                                  <canvas id="os" height="130" width="130"></canvas>
+                                  <p>Windows/OS X/Ubuntu</p>
+                                  <br>
+                                  <script>
+                                    var doughnutData = [
+                                        {
+                                          value: 80,
+                                          color:"#1abc9c"
+                                        },
+                                        {
+                                          value : 20,
+                                          color : "#ecf0f1"
+                                        }
+                                      ];
+                                      var myDoughnut = new Chart(document.getElementById("os").getContext("2d")).Doughnut(doughnutData);
+                                  </script>
+                                </div>
+                                <div class="col-lg-3 centered">
+                                  <canvas id="android" height="130" width="130"></canvas>
+                                  <p>Android Dev</p>
+                                  <br>
+                                  <script>
+                                    var doughnutData = [
+                                        {
+                                          value: 70,
+                                          color:"#1abc9c"
+                                        },
+                                        {
+                                          value : 30,
+                                          color : "#ecf0f1"
+                                        }
+                                      ];
+                                      var myDoughnut = new Chart(document.getElementById("android").getContext("2d")).Doughnut(doughnutData);
+                                  </script>
+                                </div>
+                            </div><!--/.row -->
+                            <br>
+                          </div><!--/.container -->
 
-                        <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.
-                        <!--//Usage: http://caseyscarborough.com/projects/github-activity/ -->
-                        <div id="ghfeed" class="ghfeed">
-                        </div><!--//ghfeed-->
-
-                    </div><!--//secton-inner-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
                 </section><!--//section-->
+
             </div><!--//primary-->
             <div class="secondary col-md-4 col-sm-12 col-xs-12">
                  <aside class="info aside section">
                     <div class="section-inner">
-                        <h2 class="heading sr-only">Basic Information</h2>
+                        <h2 class="heading sr-only">Information</h2>
                         <div class="content">
                             <ul class="list-unstyled">
-                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>San Francisco, US</li>
-                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">jameslee@website.com</a></li>
-                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://www.website.com</a></li>
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location: </span>Charleston, SC</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="mailto:abrarb3@gmail.com">abrarb3@gmail.com</a></li>
+                                <li><i class="fa fa-phone"></i><span class="sr-only">Phone: </span>(843) 817-2004</li>
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//aside-->
-
-                <aside class="skills aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Skills</h2>
-                        <div class="content">
-                            <p class="intro">
-                                Intro about your skills goes here. Keep the list lean and only show your primary skillset. You can always provide a link to your Linkedin or Coderwall profile so people can get more info there.</p>
-
-                            <div class="skillset">
-
-                                <div class="item">
-                                    <h3 class="level-title">Python &amp; Django<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Javascript &amp; jQuery<span class="level-label">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">HTML5, CSS3, SASS &amp; LESS<span class="level-label">Expert</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="96%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <div class="item">
-                                    <h3 class="level-title">Ruby on Rails<span class="level-label">Pro</span></h3>
-                                    <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="85%">
-                                        </div>
-                                    </div><!--//level-bar-->
-                                </div><!--//item-->
-
-                                <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Coderwall</a></p>
-                            </div>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="testimonials aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Testimonials</h2>
-                        <div class="content">
-                            <div class="item">
-                                <blockquote class="quote">
-                                    <p><i class="fa fa-quote-left"></i>James is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!</p>
-                                </blockquote>
-                                <p class="source"><span class="name">Tim Adams</span><br /><span class="title">Curabitur commodo</span></p>
-                            </div><!--//item-->
-
-                            <p><a class="more-link" href="#"><i class="fa fa-external-link"></i> More on Linkedin</a></p>
-
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
 
                 <aside class="education aside section">
                     <div class="section-inner">
                         <h2 class="heading">Education</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> MSc Psychology and Computer Science</h3>
-                                <h4 class="university">University College London <span class="year">(2011-2012)</span></h4>
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> Clemson University</h3>
+                                <h4 class="university">BS Computer Science<span class="year">(2012-2016)</span></h4>
                             </div><!--//item-->
                             <div class="item">
-                                <h3 class="title"><i class="fa fa-graduation-cap"></i> BSc Computer Science</h3>
-                                <h4 class="university">University of Bristol <span class="year">(2008-2011)</span></h4>
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i>Academic Magnet High School</h3>
+                                <h4 class="university"><span class="year">(2008-2012)</span></h4>
                             </div><!--//item-->
                         </div><!--//content-->
                     </div><!--//section-inner-->
@@ -209,77 +258,39 @@
                                     <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
                                 </li><!--//item-->
                                 <li class="item">
-                                    <span class="title"><strong>Spanish:</strong></span>
+                                    <span class="title"><strong>Urdu:</strong></span>
                                     <span class="level">Professional Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Spanish:</strong></span>
+                                    <span class="level">Basic Understanding<br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
                                 </li><!--//item-->
                             </ul>
                         </div><!--//content-->
                     </div><!--//section-inner-->
                 </aside><!--//section-->
 
-                <aside class="blog aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Latest Blog Posts</h2>
-                        <p>You can use Sascha Depold's <a href="https://github.com/sdepold/jquery-rss" target="_blank">jQuery RSS plugin</a> to pull in your blog post feeds.</p>
-                        <div id="rss-feeds" class="content">
 
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
+                <aside class="resume aside section">
+                  <div class="section-inner">
+                      <h2 class="heading">Resume</h2>
+                      <div class="content">
+                          <div class="item">
+                              <p class="title"><a href="resources/basharesume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Download Resume</p>
+                          </div><!--//item-->
+                      </div><!--//content-->
+                  </div><!--//section-inner-->
                 </aside><!--//section-->
 
-                <aside class="list music aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Favourite coding music</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">Ut sollicitudin in mauris non auctor</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">Etiam hendrerit urna nunc</a></li>
-                                <li><i class="fa fa-headphones"></i> <a href="#">Duis et felis bibendum</a></li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="list conferences aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Conferences</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><i class="fa fa-calendar"></i> <a href="https://developer.apple.com/wwdc/" target="_blank">WWDC 2014</a> (San Francisco)</li>
-                                <li><i class="fa fa-calendar"></i> <a href="http://hive.aigaseattle.org/">Hive</a> (Seattle)</li>
-                            </ul>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
-                </aside><!--//section-->
-
-                <aside class="credits aside section">
-                    <div class="section-inner">
-                        <h2 class="heading">Credits</h2>
-                        <div class="content">
-                            <ul class="list-unstyled">
-                                <li><a href="http://getbootstrap.com/" target="_blank"><i class="fa fa-external-link"></i> Bootstrap</a></li>
-                                <li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="fa fa-external-link"></i> FontAwesome</a></li>
-                                <li><a href="http://jquery.com/" target="_blank"><i class="fa fa-external-link"></i> jQuery</a></li>
-                                <li><a href="https://github.com/IonicaBizau/github-calendar" target="_blank"><i class="fa fa-external-link"></i> GitHub Calendar Plugin</a></li>
-
-                                <li><a href="http://caseyscarborough.com/projects/github-activity/" target="_blank"><i class="fa fa-external-link"></i> GitHub Activity Stream</a></li>
-
-                                <li><a href="https://github.com/sdepold/jquery-rss" target="_blank"><i class="fa fa-external-link"></i> jQuery RSS</a></li>
-
-                                <li>Profile image: <a href="https://www.flickr.com/photos/dotbenjamin/2577394151" target="_blank">Ben Smith</a></li>
-                                <li>iPad and iPhone mocks: <a href="https://dribbble.com/perlerar" target="_blank">Regy Perlera</a></li>
-
-                            </ul>
-
-                            <hr/>
-
-                             <p>This responsive portfolio template is handcrafted by UX designer <a href="https://www.linkedin.com/in/xiaoying" target="_blank">Xiaoying Riley</a> at <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a> for developers and is <strong>FREE</strong> under the <a class="dotted-link" href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 License</a></p>
-                             <p>We will improve or add new features to this template based on users' feedback so follow us on twitter to get notified when a new version is out!</p>
-                            <a class="btn btn-cta-secondary btn-follow" href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fa fa-twitter"></i> Follow us</a>
-                            <a class="btn btn-cta-primary btn-download" href="http://themes.3rdwavemedia.com/website-templates/free-responsive-website-template-for-developers/" target="_blank"><i class="fa fa-download"></i> I want to download</a>
-                        </div><!--//content-->
-                    </div><!--//section-inner-->
+                <aside class="resume aside section">
+                  <div class="section-inner">
+                      <h2 class="heading">Github Sample Code</h2>
+                      <div class="content">
+                          <div class="item">
+                            <p class="title"><a href="http://github.com/mbasha/SampleCode" target="_blank"><i class="fa fa-github-alt"></i> link to sample code repo</p>
+                          </div><!--//item-->
+                      </div><!--//content-->
+                  </div><!--//section-inner-->
                 </aside><!--//section-->
 
             </div><!--//secondary-->
@@ -288,10 +299,6 @@
 
     <!-- ******FOOTER****** -->
     <footer class="footer">
-        <div class="container text-center">
-                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
-        </div><!--//container-->
     </footer><!--//footer-->
 
     <!-- Javascript -->
@@ -304,7 +311,8 @@
     <script type="text/javascript" src="assets/github-calendar/dist/github-calendar.min.js"></script>
     <!-- github activity plugin -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
-    <script type="text/javascript" src="assets/github-activity/src/github-activity.js"></script>
+    <!--script type="text/javascript" src="assets/github-activity/src/github-activity.js"></script-->
+    <script type="text/javascript" src="assets/github-activity.js"></script>
     <!-- custom js -->
     <script type="text/javascript" src="assets/main.js"></script>
 </body>
