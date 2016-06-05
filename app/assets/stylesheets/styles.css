@@ -325,6 +325,7 @@ iframe {
 }
 .skills .skillset .item {
   margin-bottom: 30px;
+  overflow:auto;
 }
 .skills .skillset .level-title {
   font-size: 16px;
